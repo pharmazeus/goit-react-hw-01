@@ -1,0 +1,20 @@
+.text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #1c1d20d0;
+}
+.online {
+  color: green;
+}
+.offline {
+  color: orangered;
+}
+.friendUnit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}

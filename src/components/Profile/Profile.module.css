@@ -1,0 +1,53 @@
+.image {
+  justify-content: flex-start;
+  max-width: 320px;
+  min-height: 100%;
+
+  padding: 14px 14px 0 14px;
+  background-color: #1ac8f32c;
+  border-radius: 160px;
+
+  transition: background-color 350ms ease-in;
+}
+.profileContainer {
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 16px;
+}
+.headingName {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: #1c1d20;
+}
+.text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  color: #1c1d20d0;
+}
+.profileAtrbtsList {
+  padding: 16px;
+  background-color: #1ac8f32c;
+  border-radius: 12px;
+
+  max-width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 14px;
+
+  transition: background-color 350ms ease-in;
+}
+.statUnit {
+  margin-bottom: 5px;
+}
+.profileAtrbtsList:hover,
+.profileAtrbtsList:focus,
+.image:hover,
+.image:focus {
+  background-color: #1ac8f3b6;
+}

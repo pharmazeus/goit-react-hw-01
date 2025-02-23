@@ -1,0 +1,16 @@
+.friendsContainer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+  margin-bottom: 20px;
+
+  padding: 10px;
+  background-color: #1ac8f3b6;
+  border-radius: 12px;
+  transition: background-color 350ms ease-in;
+}
+.friendsContainer:hover,
+.friendsContainer:focus {
+  background-color: #1ac8f32c;
+  cursor: pointer;
+}
